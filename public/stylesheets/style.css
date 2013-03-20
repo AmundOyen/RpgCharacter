@@ -7,12 +7,6 @@ body {
 a {
   color: #00B7FF;
 }*/
-#main-menu {
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-}
 
 .menu{
     position: absolute;
@@ -26,10 +20,6 @@ a {
 
 .menu-closed{
     width: 48px;
-    height: 48px;
-}
-.menu-opened{
-    width: 99%;
     height: 48px;
 }
 
