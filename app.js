@@ -11,10 +11,11 @@ var express = require('express')
     , path = require('path')
     , passport = require('passport')
     , util = require('util')
-    , GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
+    , GoogleStrategy = require('passport-google-oauth').OAuth2Strategy
+    , tokens = require('./tokens');
 
-var GOOGLE_CLIENT_ID = "98296414098.apps.googleusercontent.com";
-var GOOGLE_CLIENT_SECRET = "jzMFeA4lTbnT6eQOVCwZBS6u";
+var GOOGLE_CLIENT_ID = tokens.GOOGLE_CLIENT_ID;
+var GOOGLE_CLIENT_SECRET = tokens.GOOGLE_CLIENT_SECRET;
 
 passport.serializeUser(function(user, done) {
     done(null, user);
@@ -27,7 +28,7 @@ passport.deserializeUser(function(obj, done) {
 passport.use(new GoogleStrategy({
         clientID: GOOGLE_CLIENT_ID,
         clientSecret: GOOGLE_CLIENT_SECRET,
-        callbackURL: "http://rpgcharacter.azurewebsites.net/auth/google/callback"
+        callbackURL: "http://localhost:3000/auth/google/callback"
     },
     function(accessToken, refreshToken, profile, done) {
         process.nextTick(function () {
@@ -94,5 +95,5 @@ http.createServer(app).listen(app.get('port'), function(){
 
 function ensureAuthenticated(req, res, next) {
     if (req.isAuthenticated()) { return next(); }
-    res.redirect('/login')
+    res.redirect('/login');
 }
