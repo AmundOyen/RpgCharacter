@@ -1,4 +1,5 @@
-(function(){
+var RpgCharacter = {};
+(function(RC){
     function init(){
         Handlers.bind();
     }
@@ -22,9 +23,9 @@
 
     })(Handlers);
 
-    function log(value) {
+    RC.log = function (value) {
         (typeof (value) == "object") ? window.console.dir(value) : window.console.log(value);
     }
 
     $(init);
-})();
+})(RpgCharacter);
