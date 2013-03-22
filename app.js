@@ -27,7 +27,7 @@ passport.deserializeUser(function(obj, done) {
 passport.use(new GoogleStrategy({
         clientID: GOOGLE_CLIENT_ID,
         clientSecret: GOOGLE_CLIENT_SECRET,
-        callbackURL: "http://http://rpgcharacter.azurewebsites.net/auth/google/callback"
+        callbackURL: "http://rpgcharacter.azurewebsites.net/auth/google/callback"
     },
     function(accessToken, refreshToken, profile, done) {
         process.nextTick(function () {

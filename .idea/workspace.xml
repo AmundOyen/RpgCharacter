@@ -2,63 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6484731-98dd-4789-af40-42c884eca96f" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\lib\passport-google\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\lib\passport-google\strategy.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\lib\passport-openid\errors\badrequesterror.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\lib\passport-openid\errors\internalopeniderror.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\lib\passport-openid\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\lib\passport-openid\strategy.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\openid\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\openid\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\openid\expressjs_sample\authentication_controller.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\openid\expressjs_sample\login.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\openid\lib\base64.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\openid\lib\convert.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\openid\lib\xrds.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\openid\openid.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\openid\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\openid\sample.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\openid\test\openid_fast_tests.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\openid\test\openid_integration_tests.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\openid\test\xrds_tests.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\passport\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\passport\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\passport\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\passport\lib\passport\context\http\actions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\passport\lib\passport\context\http\context.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\passport\lib\passport\http\request.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\passport\lib\passport\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\passport\lib\passport\middleware\authenticate.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\passport\lib\passport\middleware\initialize.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\passport\lib\passport\strategies\session.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\passport\lib\passport\strategy.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\node_modules\passport\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\passport-openid\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\pkginfo\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\pkginfo\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\pkginfo\docs\docco.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\pkginfo\docs\pkginfo.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\pkginfo\examples\all-properties.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\pkginfo\examples\array-argument.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\pkginfo\examples\multiple-properties.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\pkginfo\examples\object-argument.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\pkginfo\examples\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\pkginfo\examples\single-property.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\pkginfo\lib\pkginfo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\pkginfo\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\node_modules\pkginfo\test\pkginfo-test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\passport-google\package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RpgCharacter.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1363981228766" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1363990866638" ignored="false" />
     <file path="/app.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1363983386363" ignored="false" />
     <file path="/index.jade" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1363816859054" ignored="false" />
     <file path="/framework.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1363981448466" ignored="false" />
@@ -104,7 +53,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.23160763">
+            <state line="97" column="1" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.7220709">
               <folding />
             </state>
           </provider>
@@ -321,7 +270,11 @@
       <created>1363820091850</created>
       <updated>1363820091850</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Passport">
+      <created>1363990783764</created>
+      <updated>1363990783764</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -348,6 +301,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -355,13 +309,12 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -409,7 +362,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed heigth on menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed callback URL" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -428,6 +381,8 @@
     <MESSAGE value="Added Menu" />
     <MESSAGE value="fixed space" />
     <MESSAGE value="fixed heigth on menu" />
+    <MESSAGE value="Added Passport" />
+    <MESSAGE value="Fixed callback URL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -505,7 +460,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="457" selection-end="457" vertical-scroll-proportion="0.23160763">
+        <state line="97" column="1" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.7220709">
           <folding />
         </state>
       </provider>
