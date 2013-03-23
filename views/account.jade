@@ -1,3 +1,9 @@
-p ID: user.identifier
-p Name: user.displayName
-p Email: user.emails[0].value
+extends layout
+
+block content
+    p ID:
+        span=user.id
+    p Name:
+        span=user.displayName
+    p Email:
+        span=user.emails[0].value

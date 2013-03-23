@@ -63,23 +63,24 @@ app.get('/', routes.index);
 app.get('/users', user.list);
 
 app.get('/account', ensureAuthenticated, function(req, res){
-    res.render('account', { user: req.user });
-});
-
-app.get('/login', function(req, res){
-    res.render('login', { user: req.user });
+    res.render('account', {
+        isAuthenticated:req.isAuthenticated(),
+        user: req.user
+    });
 });
 
 app.get('/auth/google',
-    passport.authenticate('google', { scope: ['https://www.googleapis.com/auth/userinfo.profile',
-        'https://www.googleapis.com/auth/userinfo.email'] }),
+    passport.authenticate('google', {
+        scope: ['https://www.googleapis.com/auth/userinfo.profile',
+                'https://www.googleapis.com/auth/userinfo.email']
+    }),
     function(req, res){
         // The request will be redirected to Google for authentication, so this
         // function will not be called.
     });
 
 app.get('/auth/google/callback',
-    passport.authenticate('google', { failureRedirect: '/login' }),
+    passport.authenticate('google', { failureRedirect: '/' }),
     function(req, res) {
         res.redirect('/');
     });
@@ -94,6 +95,8 @@ http.createServer(app).listen(app.get('port'), function(){
 });
 
 function ensureAuthenticated(req, res, next) {
-    if (req.isAuthenticated()) { return next(); }
-    res.redirect('/login');
+    if (req.isAuthenticated()) {
+        return next();
+    }
+    res.redirect('/');
 }

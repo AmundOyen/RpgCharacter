@@ -1,7 +1,13 @@
 var RpgCharacter = {};
 (function(RC){
-    function init(){
+    function initialize(){
         Handlers.bind();
+        if(!isAuthenticated()){
+            $("#isAuthenticated").dialog({
+                title: "Login",
+                height: 90
+            });
+        }
     }
 
     var Handlers = {};
@@ -23,9 +29,20 @@ var RpgCharacter = {};
 
     })(Handlers);
 
-    RC.log = function (value) {
-        (typeof (value) == "object") ? window.console.dir(value) : window.console.log(value);
+    function log(value) {
+        if(typeof (value) === "object"){
+            window.console.dir(value)
+        }
+        else{
+            window.console.log(value);
+        }
     }
 
-    $(init);
+    function isAuthenticated(){
+        return $("#isAuthenticated").data("auth");
+    }
+
+    RC.log = log;
+
+    $(initialize);
 })(RpgCharacter);

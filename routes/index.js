@@ -4,5 +4,9 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Rpg Character' });
+    console.log(req.user);
+    res.render('index', {
+        isAuthenticated: req.isAuthenticated()
+    });
+
 };

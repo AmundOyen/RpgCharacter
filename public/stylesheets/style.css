@@ -9,7 +9,6 @@ body {
     border-radius: 5px;
     right: 4px;
     top: 4px;
-    left: 4px;
     height: 48px;
 }
 
@@ -17,12 +16,18 @@ body {
     width: 48px;
 }
 
+.menu-opened{
+    left: 4px;
+}
+
 .menu-closed img{
     width: 48px;
     height: 48px;
+    float:right;
 }
 
 .menu-opened img{
     width: 48px;
     height: 48px;
+    float:right;
 }
