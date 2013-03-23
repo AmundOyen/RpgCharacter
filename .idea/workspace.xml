@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6484731-98dd-4789-af40-42c884eca96f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/framework.js" afterPath="$PROJECT_DIR$/public/javascripts/framework.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RpgCharacter.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364044326901" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364044350976" ignored="false" />
     <file path="/app.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364044182778" ignored="false" />
     <file path="/index.jade" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364040064195" ignored="false" />
-    <file path="/framework.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364043172822" ignored="false" />
+    <file path="/framework.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364044657940" ignored="false" />
     <file path="/account.jade" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364039008062" ignored="false" />
     <file path="/login.jade" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1363991409055" ignored="false" />
     <file path="/tokens.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1363991835279" ignored="false" />
@@ -35,10 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="99" selection-start="722" selection-end="722" vertical-scroll-proportion="0.33242506">
+            <state line="79" column="26" selection-start="2225" selection-end="2327" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="framework.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="framework.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/framework.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="17" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
+            <state line="5" column="35" selection-start="157" selection-end="157" vertical-scroll-proportion="0.23160763">
               <folding />
             </state>
           </provider>
@@ -115,8 +115,8 @@
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
-        <option value="$PROJECT_DIR$/public/javascripts/framework.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/framework.js" />
       </list>
     </option>
   </component>
@@ -380,7 +380,11 @@
       <created>1364043770626</created>
       <updated>1364043770626</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactored callbackURL">
+      <created>1364044356146</created>
+      <updated>1364044356146</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -576,16 +580,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/framework.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="17" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
+        <state line="79" column="26" selection-start="2225" selection-end="2327" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/framework.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="99" selection-start="722" selection-end="722" vertical-scroll-proportion="0.33242506">
+        <state line="5" column="35" selection-start="157" selection-end="157" vertical-scroll-proportion="0.23160763">
           <folding />
         </state>
       </provider>

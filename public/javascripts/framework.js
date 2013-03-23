@@ -3,6 +3,7 @@ var RpgCharacter = {};
     function initialize(){
         Handlers.bind();
         if(!isAuthenticated()){
+            $("#main-menu").hide();
             $("#isAuthenticated").dialog({
                 title: "Login",
                 height: 90
