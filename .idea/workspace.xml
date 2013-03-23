@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e6484731-98dd-4789-af40-42c884eca96f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/framework.js" afterPath="$PROJECT_DIR$/public/javascripts/framework.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RpgCharacter.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364044350976" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364044710977" ignored="false" />
     <file path="/app.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364044182778" ignored="false" />
     <file path="/index.jade" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364040064195" ignored="false" />
     <file path="/framework.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364044657940" ignored="false" />
@@ -71,10 +72,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="framework.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="framework.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/framework.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="35" selection-start="157" selection-end="157" vertical-scroll-proportion="0.23160763">
+            <state line="8" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="1" selection-start="501" selection-end="501" vertical-scroll-proportion="1.2479564">
               <folding />
             </state>
           </provider>
@@ -112,11 +122,11 @@
         <option value="$PROJECT_DIR$/views/login.jade" />
         <option value="$PROJECT_DIR$/views/account.jade" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/javascripts/framework.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
       </list>
     </option>
   </component>
@@ -384,7 +394,11 @@
       <created>1364044356146</created>
       <updated>1364044356146</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Hide menu when not authenticated">
+      <created>1364044715236</created>
+      <updated>1364044715236</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -472,7 +486,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored callbackURL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hide menu when not authenticated" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -497,6 +511,7 @@
     <MESSAGE value="Refactored tokens" />
     <MESSAGE value="Added jQuery UI, added login dialog" />
     <MESSAGE value="refactored callbackURL" />
+    <MESSAGE value="Hide menu when not authenticated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -552,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="16" selection-start="439" selection-end="439" vertical-scroll-proportion="0.6757493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/account.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="20" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
@@ -589,7 +597,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/framework.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="157" selection-end="157" vertical-scroll-proportion="0.23160763">
+        <state line="8" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="1" selection-start="501" selection-end="501" vertical-scroll-proportion="1.2479564">
           <folding />
         </state>
       </provider>

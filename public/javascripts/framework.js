@@ -5,6 +5,7 @@ var RpgCharacter = {};
         if(!isAuthenticated()){
             $("#main-menu").hide();
             $("#isAuthenticated").dialog({
+                dialogClass: "no-close",
                 title: "Login",
                 height: 90
             });

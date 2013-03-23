@@ -31,3 +31,7 @@ body {
     height: 48px;
     float:right;
 }
+
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
