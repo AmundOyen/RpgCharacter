@@ -25,10 +25,12 @@ passport.deserializeUser(function(obj, done) {
     done(null, obj);
 });
 
+var baseURL = process.env.PORT ? "http://rpgcharacter.azurewebsites.net" : "http://localhost:3000";
+
 passport.use(new GoogleStrategy({
         clientID: GOOGLE_CLIENT_ID,
         clientSecret: GOOGLE_CLIENT_SECRET,
-        callbackURL: "http://localhost:3000/auth/google/callback"
+        callbackURL: baseURL + "/auth/google/callback"
     },
     function(accessToken, refreshToken, profile, done) {
         process.nextTick(function () {
