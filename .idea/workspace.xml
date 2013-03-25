@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6484731-98dd-4789-af40-42c884eca96f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RpgCharacter.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364127971993" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364128802974" ignored="false" />
     <file path="/app.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364044182778" ignored="false" />
     <file path="/index.jade" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364040064195" ignored="false" />
     <file path="/framework.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364044657940" ignored="false" />
@@ -415,7 +414,15 @@
       <created>1364127976758</created>
       <updated>1364127976758</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="removed node_moduels from gitignore">
+      <created>1364128765501</created>
+      <updated>1364128765501</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added mack node_modules">
+      <created>1364128859255</created>
+      <updated>1364128859255</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -503,7 +510,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="adde node_moduels to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mack node_modules" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -531,6 +538,8 @@
     <MESSAGE value="Hide menu when not authenticated" />
     <MESSAGE value="Hide menu close button on login dialog" />
     <MESSAGE value="adde node_moduels to gitignore" />
+    <MESSAGE value="removed node_moduels from gitignore" />
+    <MESSAGE value="added mack node_modules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
