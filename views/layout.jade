@@ -1,13 +1,14 @@
 doctype 5
-html
+html(ng-app)
     head
         title='Rpg Character'
         link(rel='stylesheet', href='/stylesheets/style.css')
         link(rel='stylesheet', href='/stylesheets/jquery-ui-1.10.2.min.css')
         script(src='javascripts/jquery-1.9.1.min.js')
         script(src='javascripts/jquery-ui-1.10.2.min.js')
+        script(src='javascripts/angular.min.js')
         script(src='javascripts/framework.js')
-    body
+    body(ng-controller="layoutCtrl")
         div(id="isAuthenticated", style="display:none;", data-auth="#{isAuthenticated}")
             a(href="/auth/google") Sign On with Google
         div(id="main-menu", class="menu menu-closed")
