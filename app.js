@@ -94,6 +94,7 @@ app.get('/logout', function(req, res){
 
 http.createServer(app).listen(app.get('port'), function(){
     console.log("Express server listening on port " + app.get('port'));
+    console.log("http://localhost:" + app.get("port") + "/");
 });
 
 function ensureAuthenticated(req, res, next) {
