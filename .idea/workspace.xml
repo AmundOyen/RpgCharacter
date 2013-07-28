@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6484731-98dd-4789-af40-42c884eca96f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iisnode.yml" />
+      <change type="DELETED" beforePath="C:\Code\RpgCharacter\iisnode.yml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RpgCharacter.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1375012519189" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1375014315911" ignored="false" />
     <file path="/app.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1375011813476" ignored="false" />
     <file path="/index.jade" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364040064195" ignored="false" />
     <file path="/framework.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364398516489" ignored="false" />
@@ -53,19 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iisnode.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iisnode.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="22" selection-start="43" selection-end="43" vertical-scroll-proportion="0.046321526">
+            <state line="17" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.5095368">
               <folding />
             </state>
           </provider>
@@ -349,7 +340,11 @@
       <created>1375012525996</created>
       <updated>1375012525996</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added iisnode file">
+      <created>1375014319563</created>
+      <updated>1375014319563</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -437,7 +432,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use env variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added iisnode file" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -470,6 +465,7 @@
     <MESSAGE value="Added startup message" />
     <MESSAGE value="Upgraded modules" />
     <MESSAGE value="Use env variables" />
+    <MESSAGE value="Added iisnode file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -563,14 +559,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iisnode.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="43" selection-end="43" vertical-scroll-proportion="0.046321526">
+        <state line="17" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.5095368">
           <folding />
         </state>
       </provider>
