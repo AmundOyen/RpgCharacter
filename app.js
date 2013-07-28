@@ -13,8 +13,8 @@ var express = require('express')
     , util = require('util')
     , GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 
-var GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
-var GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
+var GOOGLE_CLIENT_ID = "98296414098.apps.googleusercontent.com";//process.env.GOOGLE_CLIENT_ID;
+var GOOGLE_CLIENT_SECRET = "jzMFeA4lTbnT6eQOVCwZBS6u"; //process.env.GOOGLE_CLIENT_SECRET;
 
 passport.serializeUser(function(user, done) {
     done(null, user);
