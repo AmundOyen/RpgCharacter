@@ -2,14 +2,6 @@ var RpgCharacter = {};
 (function(RC){
     function initialize(){
         Handlers.bind();
-        if(!isAuthenticated()){
-            $("#main-menu").hide();
-            $("#isAuthenticated").dialog({
-                dialogClass: "no-close",
-                title: "Login",
-                height: 90
-            });
-        }
     }
 
     var Handlers = {};
@@ -38,10 +30,6 @@ var RpgCharacter = {};
         else{
             window.console.log(value);
         }
-    }
-
-    function isAuthenticated(){
-        return $("#isAuthenticated").data("auth");
     }
 
     RC.log = log;

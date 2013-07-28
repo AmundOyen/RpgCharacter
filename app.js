@@ -1,8 +1,6 @@
-
 /*
  * Module dependencies.
  */
-
 
 var express = require('express')
     , routes = require('./routes')
@@ -13,8 +11,7 @@ var express = require('express')
     , util = require('util')
     , GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 
-var GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
-var GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
+routes.login = require("./routes/login").login;
 
 passport.serializeUser(function(user, done) {
     done(null, user);
@@ -27,8 +24,8 @@ passport.deserializeUser(function(obj, done) {
 var baseURL = process.env.PORT ? "http://rpgcharacter.azurewebsites.net" : "http://localhost:3000";
 
 passport.use(new GoogleStrategy({
-        clientID: GOOGLE_CLIENT_ID,
-        clientSecret: GOOGLE_CLIENT_SECRET,
+        clientID: process.env.GOOGLE_CLIENT_ID,
+        clientSecret: process.env.GOOGLE_CLIENT_SECRET,
         callbackURL: baseURL + "/auth/google/callback"
     },
     function(accessToken, refreshToken, profile, done) {
@@ -60,7 +57,8 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-app.get('/', routes.index);
+app.get('/', ensureAuthenticated, routes.index);
+app.get('/login', routes.login);
 app.get('/users', user.list);
 
 app.get('/account', ensureAuthenticated, function(req, res){
@@ -100,5 +98,5 @@ function ensureAuthenticated(req, res, next) {
     if (req.isAuthenticated()) {
         return next();
     }
-    res.redirect('/');
+    res.redirect('/login');
 }

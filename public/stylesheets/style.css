@@ -35,3 +35,14 @@ body {
 .no-close .ui-dialog-titlebar-close {
     display: none;
 }
+
+.login {
+    position: absolute;
+    background: #333333;
+    border-radius: 5px;
+    top: 5px;
+    right: 5px;
+    bottom:5px;
+    left: 5px;
+    color:white;
+}

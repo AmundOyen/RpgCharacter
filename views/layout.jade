@@ -9,8 +9,7 @@ html(ng-app)
         script(src='javascripts/angular.min.js')
         script(src='javascripts/framework.js')
     body(ng-controller="layoutCtrl")
-        div(id="isAuthenticated", style="display:none;", data-auth="#{isAuthenticated}")
-            a(href="/auth/google") Sign On with Google
-        div(id="main-menu", class="menu menu-closed")
-            img(src="images/d20_128px.png")
+        if isAuthenticated
+            div(id="main-menu", class="menu menu-closed")
+                img(src="images/d20_128px.png")
         block content
