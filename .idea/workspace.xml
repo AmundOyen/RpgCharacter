@@ -2,70 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6484731-98dd-4789-af40-42c884eca96f" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\jade.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\node_modules\commander\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\node_modules\commander\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\node_modules\commander\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\node_modules\commander\lib\commander.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\runtime.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\testing\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\testing\index.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\testing\layout.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\testing\layout.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\testing\mobile.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\testing\mobile.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\testing\nested\something.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\testing\nested\something.jade" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\testing\some.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\node_modules\jade\testing\test.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Code\RpgCharacter\tokens.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/Readme_zh-cn.md" afterPath="$PROJECT_DIR$/node_modules/jade/Readme_zh-cn.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/.npmignore" afterPath="$PROJECT_DIR$/node_modules/jade/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/History.md" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/History.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/LICENSE" afterPath="$PROJECT_DIR$/node_modules/jade/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/Readme.md" afterPath="$PROJECT_DIR$/node_modules/jade/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/Readme.md" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/Readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/attrs.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/attrs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/block-comment.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/block-comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/block.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/block.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/case.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/case.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/code.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/code.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/comment.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/compiler.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/compiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/doctype.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/doctype.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/doctypes.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/doctypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/each.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/each.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/filter.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/filters.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/index.js" afterPath="$PROJECT_DIR$/node_modules/jade/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/index.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/index.js" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/inline-tags.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/inline-tags.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/jade.cmd" afterPath="$PROJECT_DIR$/node_modules/.bin/jade.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/jade.js" afterPath="$PROJECT_DIR$/node_modules/jade/jade.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/jade.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/jade.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/jade.md" afterPath="$PROJECT_DIR$/node_modules/jade/jade.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/bin/jade" afterPath="$PROJECT_DIR$/node_modules/jade/bin/jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/lexer.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/lexer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/literal.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/literal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/mixin.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/mixin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/node.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/parser.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/runtime.js" afterPath="$PROJECT_DIR$/node_modules/jade/runtime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/runtime.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/runtime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/self-closing.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/self-closing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/tag.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/tag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/text.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/nodes/text.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/jade/lib/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RpgCharacter.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1375008638809" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1375011926316" ignored="false" />
     <file path="/app.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1375011813476" ignored="false" />
     <file path="/index.jade" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364040064195" ignored="false" />
     <file path="/framework.js" changelist="e6484731-98dd-4789-af40-42c884eca96f" time="1364398516489" ignored="false" />
@@ -114,7 +56,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="24" selection-start="394" selection-end="414" vertical-scroll-proportion="0.35149863">
+            <state line="17" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.5095368">
               <folding />
             </state>
           </provider>
@@ -280,7 +222,11 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="RpgCharacter" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="app.js" application-parameters="98296414098.apps.googleusercontent.com jzMFeA4lTbnT6eQOVCwZBS6u" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="RpgCharacter" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="GOOGLE_CLIENT_SECRET" value="jzMFeA4lTbnT6eQOVCwZBS6u" />
+        <env name="GOOGLE_CLIENT_ID" value="98296414098.apps.googleusercontent.com" />
+      </envs>
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
@@ -385,7 +331,11 @@
       <created>1372095176426</created>
       <updated>1372095176426</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Upgraded modules">
+      <created>1375011951338</created>
+      <updated>1375011951338</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -410,8 +360,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -420,12 +371,11 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -473,7 +423,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added startup message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgraded modules" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -504,6 +454,7 @@
     <MESSAGE value="removed node_moduels from gitignore" />
     <MESSAGE value="added mack node_modules" />
     <MESSAGE value="Added startup message" />
+    <MESSAGE value="Upgraded modules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -597,7 +548,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="394" selection-end="414" vertical-scroll-proportion="0.35149863">
+        <state line="17" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.5095368">
           <folding />
         </state>
       </provider>

@@ -15,20 +15,6 @@ var express = require('express')
 
 var GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
 var GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
-if(!GOOGLE_CLIENT_SECRET){
-    var args = process.argv.splice(2);
-    for(var i = 0; i < args.length; i++){
-        switch(i){
-            case 0:
-                GOOGLE_CLIENT_ID = args[i];
-                break;
-            case 1:
-                GOOGLE_CLIENT_SECRET = args[i];
-                break;
-        }
-    }
-}
-
 
 passport.serializeUser(function(user, done) {
     done(null, user);
